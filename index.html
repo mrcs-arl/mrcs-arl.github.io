@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portifólio Marcos Aurélio</title>
+    <title>Portfólio Marcos Aurélio</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,42 +27,54 @@
 
     <main id="container">
 
-        <!-- Barra lateral / Biografia -->
+        <!-- =========================
+             Barra lateral / Biografia
+        ========================== -->
         <aside id="bio-container">
+
             <h2>Marcos Aurélio</h2>
 
-            <img 
-                id="bio-image" 
-                src="img/foto_terno.jpg" 
+            <img
+                id="bio-image"
+                src="img/foto_terno.jpg"
                 alt="Foto de Marcos Aurélio"
             >
 
             <p>
-                Olá! Meu nome é <span id="highlight">Marcos Aurélio</span>. 
+                Olá! Meu nome é <span class="highlight">Marcos Aurélio</span>.
                 Sou professor da rede pública do Distrito Federal e estudante da área de Tecnologia da Informação.
             </p>
 
             <p id="welcome-text">Seja bem-vindo!</p>
 
+            <!-- Redes sociais -->
             <ul id="social-container">
                 <li>
-                    <a href="https://www.linkedin.com/in/marcosaurelio98/" target="_blank" aria-label="LinkedIn">
+                    <a
+                        href="https://www.linkedin.com/in/marcosaurelio98/"
+                        target="_blank"
+                        aria-label="LinkedIn"
+                    >
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </li>
             </ul>
 
+            <!-- Email -->
             <div id="email-container">
                 <ion-icon name="mail-outline"></ion-icon>
                 <a href="mailto:marcos.aurelioss98@gmail.com">
                     marcos.aurelioss98@gmail.com
                 </a>
             </div>
+
         </aside>
 
-        <!-- Conteúdo principal -->
+        <!-- =========================
+             Conteúdo principal
+        ========================== -->
         <section id="about-container">
-            
+
             <h1 id="name">Marcos Aurélio</h1>
 
             <p id="title">
@@ -77,34 +89,41 @@
                 Também estudo para concursos públicos na área de TI.
             </p>
 
+            <!-- Botão -->
             <a href="#" id="btn-projects">
                 <ion-icon name="share-social-outline"></ion-icon>
                 <span>Ver Projetos</span>
             </a>
 
+            <!-- Skills -->
             <h2 id="skill-section-title">Meus interesses</h2>
-            <p class="description">Conheça as tecnologias pelas quais me interesso:</p>
+
+            <p class="description">
+                Conheça as tecnologias pelas quais me interesso:
+            </p>
 
             <div id="skills-containers">
                 <div class="skills-box">
                     <p class="skills-title"></p>
+
                     <i class="devicon-git-plain colored"></i>
                     <i class="devicon-mysql-plain colored"></i>
                     <i class="devicon-postgresql-plain colored"></i>
-                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-linux-plain"></i>
                 </div>
             </div>
+
         </section>
 
     </main>
 
     <!-- IonIcons -->
-    <script 
-        type="module" 
+    <script
+        type="module"
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
     </script>
-    <script 
-        nomodule 
+    <script
+        nomodule
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
     </script>
 
